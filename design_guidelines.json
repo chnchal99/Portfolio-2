@@ -1,0 +1,92 @@
+{
+  "project_name": "CHOOSELESS / Blood Red Luxury Portfolio",
+  "identity_and_theme": {
+    "brand_identity": "CHOOSELESS x ALIZA DESIGNER DIRECTION",
+    "theme_mode": "Dark Luxury Editorial",
+    "vibe": "High-end fashion editorial meets digital atelier and creative studio. Dark room + blood-red lighting + liquid chrome objects + massive editorial typography.",
+    "color_palette": {
+      "obsidian_black": "#080808",
+      "blood_red": "#7A0010",
+      "deep_crimson": "#4A0009",
+      "bone_white": "#F1EDE5",
+      "gunmetal": "#242426",
+      "chrome": "#B8B8B8",
+      "tinted_dark_surface": "#120B0E",
+      "subtle_border_chrome": "rgba(184, 184, 184, 0.18)"
+    },
+    "forbidden_colors": ["#7351B7", "#1B93A4", "bright neon primary green", "generic bright electric red"]
+  },
+  "typography": {
+    "headline_font": "Cormorant Garamond, Playfair Display, or Bodoni Moda (Serif / Editorial Display)",
+    "subheading_font": "Syne, Clash Display, or Cabinet Grotesk (Wide Modern Display Sans)",
+    "body_font": "Inter, IBM Plex Sans, or Plus Jakarta Sans (Clean functional body)",
+    "mono_font": "JetBrains Mono or Space Mono (Technical metadata, coordinates, stamps)",
+    "hierarchy_rules": {
+      "h1_hero": "text-5xl sm:text-7xl lg:text-8xl tracking-tight font-serif uppercase leading-[0.9]",
+      "h2_section": "text-3xl sm:text-5xl lg:text-6xl font-serif tracking-tighter uppercase text-[#F1EDE5]",
+      "h3_card": "text-xl sm:text-2xl font-sans tracking-wide uppercase text-[#F1EDE5]",
+      "body": "text-sm sm:text-base font-sans text-[#F1EDE5]/80 leading-relaxed",
+      "meta_label": "text-xs font-mono uppercase tracking-[0.25em] text-[#B8B8B8]"
+    },
+    "editorial_typography_effects": "Massive overlapping screen text ('CHOOSELESS' / 'EDITORIAL CULT') with overflow-x-hidden, subtle parallax on scroll, and text-fill translucent gradients (#F1EDE5 to #7A0010)."
+  },
+  "layout_and_spacing": {
+    "bento_grid_mode": "MODE A: TETRIS GRID (Asymmetric, tension-filled layout)",
+    "grid_structure": "grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6 md:gap-10",
+    "container_padding": "px-4 sm:px-8 lg:px-16 py-12 md:py-24",
+    "section_flow": "HEADER -> EDITORIAL HERO -> METALLIC 3D CANVAS / SHOWCASE -> FEATURED PROJECTS (HOVER BLOOD-RED LABELS) -> SOCIAL / CONTENT STUDIO WALL -> ABOUT / PHILOSOPHY -> VISUAL CONTACT FORM -> EDITORIAL FOOTER",
+    "hero_overlay_rule": "Maximum overlay bg-black/40 with gradient from #080808 via transparent to #7A0010/20. Let images and chrome renders breathe."
+  },
+  "motion_and_interactions": {
+    "custom_cursor": {
+      "default": "Small 8px solid Bone White dot with smooth spring trailing ring",
+      "hover_states": {
+        "project_item": "Expands to blood-red 80px circle containing uppercase label 'VIEW'",
+        "social_media_card": "Expands to crimson glow ring with 'PLAY'",
+        "chrome_3d_object": "Expands to metallic ring with 'MOVE'",
+        "cta_button": "Magnetic lock-on interaction with radial crimson aura"
+      }
+    },
+    "section_transitions": "Brief red flash / crimson ambient glow on section intersection; smooth Lenis scroll momentum.",
+    "hover_effects": "1px chrome borders shift to blood-red glow (#7A0010); images scale 1.05 with saturation shift; text shifts to italic Cormorant Garamond.",
+    "metallic_simulation": "CSS specular highlights, radial gradients moving with cursor position (`bg-[radial-gradient(circle_at_var(--mouse-x)_var(--mouse-y),#7A0010_0%,transparent_60%)]`), brushed metal noise texture overlays."
+  },
+  "key_sections_definition": {
+    "hero": "Full viewport height. Oversized interactive typography overlaying liquid chrome 3D simulation canvas. Ambient blood-red cursor radial spotlight.",
+    "projects_showcase": "Asymmetric editorial list and bento cards. Hovering project title triggers large floating image preview with blood-red text and gunmetal tags.",
+    "social_content_wall": "High-energy horizontal scroll / mosaic masonry wall featuring reel previews, social content cards, video clips, and stacked editorial compositions.",
+    "about_studio": "High-contrast two-column editorial split. Left: High fashion studio portrait in dark room. Right: Minimal philosophy, statistics, and press citations.",
+    "contact_form": "Minimalist visual form with gunmetal input cards, blood-red focus rings, magnetic send button, and mocked success overlay state."
+  },
+  "curated_image_urls": {
+    "reference_images": [
+      "https://images.openai.com/static-rsc-4/3grON9WTsiLFjH_lhEVkVhveRATDAZ6e49lbNcxSV5G0vGIqIN6ue9ZJRytcXwNpq_S5LJn7N5K2bmrSt6qtWTGI1fUDj6rtlIyUXJMD9lPKrFkUMMiaGGQ8hu6Id_Y65Dt9fJ1pVkvAzJJYibSQRilzPnhe7_ih_kLXt58YEfVSd-pDs4fgE7D3xPkR-N-wO?purpose=fullsize",
+      "https://images.openai.com/static-rsc-4/SHXFwGJVP460cMvHyDlERCw6U2SUqz460qlxEkOIxdl34rKFwMjrc4GDomh5ANqnT5QB8vz1eh42JK2aq5NoMfHVVOYszuB3lSvOTYXu6-GJx0QIO96VEeylCb8icRzFwM4DJE79xe1ZCqmSNORd7KfL4XcsoCkEQPl8_PiL9G0w20fAFg9JKr_trmPFGRnw?purpose=fullsize",
+      "https://images.openai.com/static-rsc-4/CTDdBbR3bxYT1NkXuOWhUGTJXZs74DdkEmP30-XWI40myPB8GVZq1g3NAn3TeCXLcujR31RxbOVgVLMXwiQh_dNjO0wCLuqZ2zwjjfhSX0UMt7bsEzUeKCcBuoTSuS3wArLN3xwkufT165RWvnuX4jcLYgZaP1GgsGPMiciyRhli35RRFhxf8HTfDS7A839Q?purpose=fullsize",
+      "https://images.openai.com/static-rsc-4/9IXsmQ2iE3nvXrfTofhixTid4wUF2sUVB7MVoxwNZCrt-jhbkns85NRzTAHK_xxGqqVZqFZIjFyBJPs-U0_SJ2JM8xF7UPNXjwMeazMjODPa57rSM69isrvMy-DJM0BqYczZqxSlbmNdj8i5wnPMrS8aMDSatVORA2xyqlSUx-VaR-hirf2tk-2tv1FLYbf3?purpose=fullsize",
+      "https://images.openai.com/static-rsc-4/TYYhur9xSAuywyPSUHzTf8lWXsfhCVU2zHuU6MlY5nAVHrC5wwjMQzzko3Nb0UTopslm4bSvLLfNEc7fgIcIEtWdoh84GowJJ8cGOLDl4a4gKvrjL0Aa_O-JpomjYaBmOTRV9WgpDYBp82rQagzqg6B5-8hmaq1FgXk4yr_x9A8Qy43DkeoIDLtdwsqCZ5I-?purpose=fullsize",
+      "https://images.openai.com/static-rsc-4/QITPSQlAmpQIpjTRsbOD2llclkCHq_lOHOO-XAcw6hRsHVyGpoPcFyX6RKLOinDLjxa_w6nMnbbmhcga5KWeFc1Sh5d3wiUfWaDBJ0PA-ZfFe1j5aWjctKDlv3JiRXDDf1ci4k9Bq1Kb3BbbelexcN_nrLA2ayrGz9j2zk02hWPxQGVVf7gRIBJCmJjIwTQ_?purpose=fullsize"
+    ],
+    "editorial_portraits": [
+      "https://images.unsplash.com/photo-1762504013915-c1faf57f291b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHxfdmVpbHxlbnwwfHx8fDE3ODk4MzU4NTB8MA&q=85",
+      "https://images.unsplash.com/photo-1781315247857-e099254a35ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwyfHxkYXJrJTIwaGlnaCUyMGZhc2hpb24mP3E9ODU",
+      "https://images.pexels.com/photos/18798321/pexels-photo-18798321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ],
+    "chrome_and_metallic_3d": [
+      "https://images.pexels.com/photos/10035596/pexels-photo-10035596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.unsplash.com/photo-1683463548306-b126b6edf785?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMG1ldGFsbGljJTIwc2N1bHB0dXJlfGVufDB8fHx8MTc4OTgzNTg1MHww&q=85",
+      "https://images.pexels.com/photos/12696432/pexels-photo-12696432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ],
+    "fashion_campaigns": [
+      "https://images.unsplash.com/photo-1735480222193-3fe22ffd70b6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmYXNoaW9uJTIwY2FtcGFpZ258ZW58MHx8fDE3ODk4MzU4NTB8MA&q=85",
+      "https://images.unsplash.com/photo-1732706431123-1aac2b46ace6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBmYXNoaW9uJTIwY2FtcGFpZ258ZW58MHx8fDE3ODk4MzU4NTB8MA&q=85"
+    ]
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "data_testid_rule": "ALL interactive and key informational elements MUST include a descriptive data-testid attribute in kebab-case (e.g. data-testid='hero-cta-button', data-testid='contact-form-submit', data-testid='project-card-01').",
+    "js_files_rule": "This project uses .js/.jsx files. Do not use TypeScript type annotations.",
+    "anti_slop": "Never center-align the app container. Use aggressive asymmetry, generous spacing (p-12, p-20, p-32), subtle grain texture, and high-contrast typography.",
+    "header_bg": "Header must use backdrop-blur-xl bg-[#080808]/80 with 1px border-b border-[#242426] and z-50. Never fully transparent.",
+    "hover_contrast": "Ensure explicit hover text color. Example: hover:bg-[#7A0010] hover:text-[#F1EDE5]."
+  }
+}
