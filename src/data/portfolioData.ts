@@ -303,7 +303,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Monthly Plan of Action, Itinerary Research & 1-Day Bulk Shoot System",
     desc: "In-depth destination research, seasonal travel itineraries, occasion days, and aesthetic feed planning. Built a high-speed production system delivering approximately one full month of structured travel content from a single organized shoot day.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/travel/hero.jpg",
   },
   {
     name: "Pets Island",
@@ -312,7 +311,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Event Production (Doggy Summer Pool Party) & Staff On-Camera Training",
     desc: "Created educational pet care and grooming reels to build customer trust and drive store footfall. Conceptualized and executed a high-engagement summer pool party for dogs, while establishing professional on-camera presentation standards with uniformed staff.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/pets-island/hero.jpg",
   },
   {
     name: "Naturelite Foods",
@@ -321,7 +319,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Pre-Launch Hype, Ingredient Purity Content & Retail Communication",
     desc: "Pre-launch momentum and consumer education for a new retail outlet. Built high-trust content around daily essentials (dals, cold-pressed oils, pulses, wheat atta), emphasizing unadulterated purity, farm sourcing and healthy living.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/naturelite-foods/hero.jpg",
   },
   {
     name: "Sunnest Power",
@@ -330,7 +327,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "B2B Tech Demystification, Video Scripting & Dealership Content",
     desc: "Demystified technical solar energy concepts for B2B dealers and commercial clients. Developed clear educational video content, dealership-focused acquisition messaging, and planned systematic shoots at solar installation sites.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/sunnest-power/hero.jpg",
   },
   {
     name: "Stay Beyond @ 7th Gear",
@@ -339,7 +335,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Experiential Reel Direction & Scenic Travel Narrative",
     desc: "Positioned Stay Beyond as an immersive weekend getaway when visiting Manka Farms and Pench National Park. Directed atmospheric reels showcasing misty mornings, tranquil outdoor dining and luxury jungle retreat stays.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/stay-beyond/hero.jpg",
   },
   {
     name: "Podcasters Meet Raipur",
@@ -348,7 +343,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "On-Ground Coverage, Micro-Clips & Creator Networking",
     desc: "Spearheaded on-ground social coverage for Raipur's podcasters and audio creators. Captured rapid-fire soundbites, panel moments, and edited punchy vertical micro-clips to drive organic shares across attendee networks.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/podcasters-meet/hero.jpg",
   },
   {
     name: "The Artisanal Crust & Patisserie",
@@ -357,7 +351,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "ASMR Macro Video Capture, Morning Reel Hooks & Pre-Order Drops",
     desc: "High-definition macro video capture highlighting sourdough fermentation textures, golden viennoiserie, and daily batch production. Built an irresistible morning routine content system that drove weekend footfall and rapid sell-outs.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/bakery/hero.jpg",
   },
   {
     name: "Aura Luxe Fitness & Wellness",
@@ -366,7 +359,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Technique Form Formats, Aesthetic Gym Reels & Trial Inquiries",
     desc: "Engineered an energizing social presence balancing technique-led educational reels with vibrant gym aesthetic culture. Positioned trainers as authority figures and drove consistent organic trial session inquiries.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/fitness/hero.jpg",
   },
 ];
 
@@ -380,7 +372,7 @@ export const contentLabCards: ContentLabCard[] = [
     title: "Scripted for the pause, shot for retention",
     desc: "Short-form video built around strong initial 2-second visual hooks, natural voiceovers, and pacing that keeps watch-time high.",
     className: "content-card-tall",
-    mediaUrl: "/images/projects/uploaded/content-lab_content-01.png",
+    mediaUrl: "/images/projects/content-lab/hook-strategy.jpg",
   },
   {
     id: "content-02",
@@ -388,7 +380,7 @@ export const contentLabCards: ContentLabCard[] = [
     title: "Connecting on-ground footfall to the feed",
     desc: "From interactive games, QR scanners, and stickers to launch-day hype — bridging physical consumer touchpoints directly into social shares.",
     className: "content-card-wide",
-    mediaUrl: "/images/projects/uploaded/content-lab_content-02.jpg",
+    mediaUrl: "/images/projects/content-lab/offline-activation.jpg",
   },
   {
     id: "content-03",
@@ -396,7 +388,7 @@ export const contentLabCards: ContentLabCard[] = [
     title: "Making complex products instantly clear",
     desc: "Turning technical specs and retail commodities into engaging, digestible content that answers customer questions before they ask.",
     className: "content-card-square",
-    mediaUrl: "/images/projects/uploaded/content-lab_content-03.png",
+    mediaUrl: "/images/projects/content-lab/product-education.jpg",
   },
 ];
 
