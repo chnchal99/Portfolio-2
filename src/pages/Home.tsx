@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ProjectMediaFrame } from "@/components/ProjectMediaFrame";
-import chanchalPhotoAsset from "@/assets/images/chanchal_exact_photo_1790169204038.jpg";
+import chanchalPhotoAsset from "@/assets/images/chanchal_matharu_new.jpg";
 import {
   isEditorMode,
   setEditorMode,
@@ -96,7 +96,7 @@ export default function Home() {
   const spotlightRef = useRef<HTMLDivElement>(null);
 
   // Permanent verified portrait of Chanchal Matharu
-  const permanentAboutPhoto = chanchalPhotoAsset || "/images/chanchal_exact_photo_1790169204038.jpg";
+  const permanentAboutPhoto = chanchalPhotoAsset || "/images/chanchal_matharu_new.jpg";
 
   // Real-time IST clock
   useEffect(() => {
