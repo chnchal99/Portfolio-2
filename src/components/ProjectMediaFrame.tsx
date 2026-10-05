@@ -25,6 +25,7 @@ interface ProjectMediaFrameProps {
   projectId?: string;
   isEditor?: boolean;
   children?: ReactNode;
+  objectFit?: "cover" | "contain";
 }
 
 export function ProjectMediaFrame({
@@ -38,11 +39,12 @@ export function ProjectMediaFrame({
   aspectRatio = "",
   loading = "lazy",
   showPlayBadge = false,
-  overlayShade = true,
+  overlayShade = false,
   mediaId,
   projectId = "general",
   isEditor: explicitIsEditor,
   children,
+  objectFit = "contain",
 }: ProjectMediaFrameProps) {
   const [loadError, setLoadError] = useState(false);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -136,9 +138,9 @@ export function ProjectMediaFrame({
               alt={alt}
               loading={loading}
               onError={() => setLoadError(true)}
-              className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+              className={`w-full h-full ${objectFit === "cover" ? "object-cover" : "object-contain bg-[#080808]"} transition-transform duration-700 ease-out group-hover:scale-[1.01]`}
             />
-            {overlayShade && (
+            {overlayShade && objectFit === "cover" && (
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
             )}
             {showPlayBadge && (
