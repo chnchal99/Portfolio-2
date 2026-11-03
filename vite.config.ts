@@ -1,6 +1,6 @@
 import path from "node:path";
 import fs from "node:fs";
-import { defineConfig, type Plugin, type UserConfig } from "vite";
+import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -185,7 +185,8 @@ function mediaPersistencePlugin(): Plugin {
 }
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === "serve" ? "/" : "/Portfolio-2/",
   plugins: [
     react(),
     tailwindcss(),
@@ -206,4 +207,4 @@ export default defineConfig({
     allowedHosts: true,
     cors: true,
   },
-} satisfies UserConfig);
+}));

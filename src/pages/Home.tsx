@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ProjectMediaFrame } from "@/components/ProjectMediaFrame";
-import chanchalPhotoAsset from "@/assets/images/chanchal_exact_photo_1790169204038.jpg";
+import chanchalPhotoAsset from "@/assets/images/chanchal_matharu_new.jpg";
 import {
   isEditorMode,
   setEditorMode,
@@ -96,7 +96,7 @@ export default function Home() {
   const spotlightRef = useRef<HTMLDivElement>(null);
 
   // Permanent verified portrait of Chanchal Matharu
-  const permanentAboutPhoto = chanchalPhotoAsset || "/images/chanchal_exact_photo_1790169204038.jpg";
+  const permanentAboutPhoto = chanchalPhotoAsset || "/images/chanchal_matharu_new.jpg";
 
   // Real-time IST clock
   useEffect(() => {
@@ -1258,7 +1258,7 @@ export default function Home() {
             )}
 
             {/* Main Stage Media Frame */}
-            <div className="relative aspect-video w-full overflow-hidden mb-4 border border-white/10 bg-[#0e080b]">
+            <div className="relative w-full h-[68vh] min-h-[360px] max-h-[640px] overflow-hidden mb-4 border border-white/10 bg-[#080808] flex items-center justify-center">
               <ProjectMediaFrame
                 src={modalActiveMedia ? modalActiveMedia.url : selectedModalProject.heroMedia}
                 alt={modalActiveMedia?.caption || selectedModalProject.title}
@@ -1266,6 +1266,7 @@ export default function Home() {
                 category={modalActiveMedia?.caption || selectedModalProject.category}
                 badge={modalActiveMedia?.category?.toUpperCase() || selectedModalProject.metricLabel}
                 className="w-full h-full"
+                objectFit="contain"
                 showPlayBadge={Boolean(modalActiveMedia?.type === "video")}
                 mediaId={modalActiveMedia ? modalActiveMedia.id : `${selectedModalProject.id}-hero`}
                 projectId={selectedModalProject.id}
@@ -1307,11 +1308,11 @@ export default function Home() {
                         }`}
                       >
                         {mediaSrc && (
-                          <div className="w-full h-12 mb-1.5 overflow-hidden bg-black/40 rounded-xs border border-white/5">
+                          <div className="w-full h-14 mb-1.5 overflow-hidden bg-black/60 rounded-xs border border-white/5 flex items-center justify-center">
                             <img
                               src={mediaSrc}
                               alt={media.caption || media.id}
-                              className="w-full h-full object-cover"
+                              className="w-full h-full object-contain"
                               onError={(e) => {
                                 (e.currentTarget as HTMLElement).style.display = "none";
                               }}

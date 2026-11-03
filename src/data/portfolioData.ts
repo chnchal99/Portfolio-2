@@ -90,21 +90,14 @@ export const featuredProjects: PortfolioProject[] = [
     metric: "20+ Varieties",
     scopeHighlight: "Zero-to-One QSR Launch Beside Established Competitor (KFC)",
     color: "#7A0010",
-    heroMedia: "/images/projects/uploaded/project-01_project-01-hero.jpg",
+    heroMedia: "/images/projects/country-rolls/influencers.jpg",
     mediaSet: [
       {
         id: "cr-launch-01",
         type: "image",
-        url: "/images/projects/uploaded/project-01_project-01-hero.jpg",
-        caption: "Storefront & launch day presence directly adjacent to KFC",
-        category: "launch",
-      },
-      {
-        id: "cr-food-01",
-        type: "image",
-        url: "/images/projects/country-rolls/product-spread.jpg",
-        caption: "Curated menu shoot showcasing 20+ rolls, momos, fries & softy items",
-        category: "food",
+        url: "/images/projects/country-rolls/influencers.jpg",
+        caption: "Influencer squad launch day presence & brand activation at Country Rolls",
+        category: "influencer",
       },
       {
         id: "cr-influencer-01",
@@ -114,11 +107,11 @@ export const featuredProjects: PortfolioProject[] = [
         category: "influencer",
       },
       {
-        id: "cr-offline-01",
+        id: "cr-food-01",
         type: "image",
-        url: "/images/projects/country-rolls/offline-game.jpg",
-        caption: "Criss-cross game table activation driving social shares",
-        category: "offline",
+        url: "/images/projects/country-rolls/hero.jpg",
+        caption: "Storefront & launch day presence directly adjacent to KFC",
+        category: "launch",
       },
     ],
     reels: [
@@ -160,28 +153,28 @@ export const featuredProjects: PortfolioProject[] = [
     metric: "10+ Synchronized Creators",
     scopeHighlight: "Massive Brand Launch Powered by 10+ Synchronized Creator Drops",
     color: "#7A0010",
-    heroMedia: "/images/projects/uploaded/project-02_sn-launch-01.jpg",
+    heroMedia: "/images/projects/shree-nandis/rakhi-celebration.jpg",
     mediaSet: [
       {
         id: "sn-launch-01",
         type: "image",
-        url: "/images/projects/uploaded/project-02_sn-launch-01.jpg",
-        caption: "Grand opening visual identity & crowd mobilization",
+        url: "/images/projects/shree-nandis/rakhi-celebration.jpg",
+        caption: "High-production Rakhi festive celebration, traditional pooja thali & signature sweets",
         category: "launch",
+      },
+      {
+        id: "sn-festive-01",
+        type: "image",
+        url: "/images/projects/shree-nandis/rakhi-gift-hamper.jpg",
+        caption: "Exclusive festive Raksha Bandhan gift hamper packaging & handcrafted sweets curation",
+        category: "food",
       },
       {
         id: "sn-influencer-01",
         type: "image",
-        url: "/images/projects/shree-nandis/influencer-squad.jpg",
-        caption: "Coordinated 10+ Creator launch rollout across Raipur's food & lifestyle scene",
+        url: "/images/projects/shree-nandis/rakhi-celebration.jpg",
+        caption: "Festive launch campaign & creator review coverage",
         category: "influencer",
-      },
-      {
-        id: "sn-food-01",
-        type: "image",
-        url: "/images/projects/shree-nandis/signature-ghewar.jpg",
-        caption: "Signature Ghewar & festive confection production shoot",
-        category: "food",
       },
     ],
     reels: [
@@ -215,34 +208,28 @@ export const featuredProjects: PortfolioProject[] = [
     timeframe: "Relaunch & Retainer",
     location: "Raipur",
     clientType: "Specialty Cafe & Experiential Hub",
-    metricLabel: "Content Rhythm",
-    metric: "Multi-Format",
-    scopeHighlight: "Cafe Relaunch with Live Events, Comedy Nights & Viral Music Formats",
+    metricLabel: "30-Day Reach",
+    metric: "123.1K+ Views",
+    scopeHighlight: "100K+ Viral Reel Milestone & 123K+ 30-Day Account Growth",
     color: "#7A0010",
-    heroMedia: "/images/projects/uploaded/project-03_cc-relaunch-01.png",
+    heroMedia: "/images/projects/coffee-co-7th-gear/instagram-growth-dashboard.jpg",
     mediaSet: [
       {
         id: "cc-relaunch-01",
         type: "image",
-        url: "/images/projects/uploaded/project-03_cc-relaunch-01.png",
-        caption: "Moody aesthetic interior & evening cafe atmosphere",
+        url: "/images/projects/coffee-co-7th-gear/instagram-growth-dashboard.jpg",
+        caption: "Verified Instagram growth: 123.1K+ views in 30 days & 100K viral reel milestone (@bomdia.bycoffee_co)",
         category: "launch",
-      },
-      {
-        id: "cc-event-01",
-        type: "image",
-        url: "/images/projects/coffee-co-7th-gear/live-event.jpg",
-        caption: "Live band & stand-up comedy on-ground content capture",
-        category: "offline",
       },
     ],
     reels: [
-      { title: "Trendy Reel 01 — Coffee Aesthetics", url: "https://instagram.com", tag: "Aesthetic" },
-      { title: "Trendy Reel 02 — Late Night Vibes", url: "https://instagram.com", tag: "Lifestyle" },
-      { title: "Influencer Collaboration Reel — Weekend Jam", url: "https://instagram.com", tag: "Event" },
+      { title: "Welcome to BOM-DIA Reel (100K Views)", url: "https://www.instagram.com/bomdia.bycoffee_co/", tag: "100K Viral" },
+      { title: "Signature Coffee & Brews Reel", url: "https://www.instagram.com/bomdia.bycoffee_co/", tag: "Signature" },
+      { title: "Cafe Ambience & Travel Planning Vibe", url: "https://www.instagram.com/bomdia.bycoffee_co/", tag: "Aesthetic" },
     ],
-    instagramUrl: "https://instagram.com",
-    instagramHandle: "@coffeeco7thgear",
+    instagramUrl: "https://www.instagram.com/bomdia.bycoffee_co/",
+    instagramHandle: "@bomdia.bycoffee_co",
+    websiteUrl: "https://g.co/kgs/QM4XMXT",
     myRole: "Social Strategy, Trend Architecture, Event Shoots & Influencer Outreach",
     story:
       "Relaunched the cafe identity by blending specialty beverage aesthetics with community events — stand-up comedy, live acoustic sessions, and seasonal evening activations. Every shoot captured the raw energy and social warmth that transformed the cafe into an evening destination.",
@@ -268,14 +255,21 @@ export const featuredProjects: PortfolioProject[] = [
     metric: "10+ Synchronized Creators",
     scopeHighlight: "Simultaneous Multi-Tier Rollout Across Food, Lifestyle & Youth Demographics",
     color: "#7A0010",
-    heroMedia: "/images/projects/uploaded/project-04_project-04-hero.jpg",
+    heroMedia: "/images/projects/creators-raipur/bts-camera-shoot.jpg",
     mediaSet: [
       {
         id: "crp-lineup-01",
         type: "image",
-        url: "/images/projects/uploaded/project-04_project-04-hero.jpg",
-        caption: "Curated 10+ creator roster spanning diverse audience verticals across Raipur",
+        url: "/images/projects/creators-raipur/bts-camera-shoot.jpg",
+        caption: "Behind-the-scenes camera production & talent direction on set with creators",
         category: "influencer",
+      },
+      {
+        id: "crp-lineup-02",
+        type: "image",
+        url: "/images/projects/creators-raipur/hero.jpg",
+        caption: "10+ Creator network lineup & production studio coordination",
+        category: "launch",
       },
     ],
     reels: [
@@ -309,7 +303,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Monthly Plan of Action, Itinerary Research & 1-Day Bulk Shoot System",
     desc: "In-depth destination research, seasonal travel itineraries, occasion days, and aesthetic feed planning. Built a high-speed production system delivering approximately one full month of structured travel content from a single organized shoot day.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/travel/hero.jpg",
   },
   {
     name: "Pets Island",
@@ -318,7 +311,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Event Production (Doggy Summer Pool Party) & Staff On-Camera Training",
     desc: "Created educational pet care and grooming reels to build customer trust and drive store footfall. Conceptualized and executed a high-engagement summer pool party for dogs, while establishing professional on-camera presentation standards with uniformed staff.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/pets-island/hero.jpg",
   },
   {
     name: "Naturelite Foods",
@@ -327,7 +319,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Pre-Launch Hype, Ingredient Purity Content & Retail Communication",
     desc: "Pre-launch momentum and consumer education for a new retail outlet. Built high-trust content around daily essentials (dals, cold-pressed oils, pulses, wheat atta), emphasizing unadulterated purity, farm sourcing and healthy living.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/naturelite-foods/hero.jpg",
   },
   {
     name: "Sunnest Power",
@@ -336,7 +327,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "B2B Tech Demystification, Video Scripting & Dealership Content",
     desc: "Demystified technical solar energy concepts for B2B dealers and commercial clients. Developed clear educational video content, dealership-focused acquisition messaging, and planned systematic shoots at solar installation sites.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/sunnest-power/hero.jpg",
   },
   {
     name: "Stay Beyond @ 7th Gear",
@@ -345,7 +335,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Experiential Reel Direction & Scenic Travel Narrative",
     desc: "Positioned Stay Beyond as an immersive weekend getaway when visiting Manka Farms and Pench National Park. Directed atmospheric reels showcasing misty mornings, tranquil outdoor dining and luxury jungle retreat stays.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/stay-beyond/hero.jpg",
   },
   {
     name: "Podcasters Meet Raipur",
@@ -354,7 +343,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "On-Ground Coverage, Micro-Clips & Creator Networking",
     desc: "Spearheaded on-ground social coverage for Raipur's podcasters and audio creators. Captured rapid-fire soundbites, panel moments, and edited punchy vertical micro-clips to drive organic shares across attendee networks.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/podcasters-meet/hero.jpg",
   },
   {
     name: "The Artisanal Crust & Patisserie",
@@ -363,7 +351,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "ASMR Macro Video Capture, Morning Reel Hooks & Pre-Order Drops",
     desc: "High-definition macro video capture highlighting sourdough fermentation textures, golden viennoiserie, and daily batch production. Built an irresistible morning routine content system that drove weekend footfall and rapid sell-outs.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/bakery/hero.jpg",
   },
   {
     name: "Aura Luxe Fitness & Wellness",
@@ -372,7 +359,6 @@ export const additionalClientWork: ClientDiversityItem[] = [
     myRole: "Technique Form Formats, Aesthetic Gym Reels & Trial Inquiries",
     desc: "Engineered an energizing social presence balancing technique-led educational reels with vibrant gym aesthetic culture. Positioned trainers as authority figures and drove consistent organic trial session inquiries.",
     instagramUrl: "https://instagram.com",
-    mediaUrl: "/images/projects/fitness/hero.jpg",
   },
 ];
 
@@ -386,7 +372,7 @@ export const contentLabCards: ContentLabCard[] = [
     title: "Scripted for the pause, shot for retention",
     desc: "Short-form video built around strong initial 2-second visual hooks, natural voiceovers, and pacing that keeps watch-time high.",
     className: "content-card-tall",
-    mediaUrl: "/images/projects/uploaded/content-lab_content-01.png",
+    mediaUrl: "/images/projects/content-lab/hook-strategy.jpg",
   },
   {
     id: "content-02",
@@ -394,7 +380,7 @@ export const contentLabCards: ContentLabCard[] = [
     title: "Connecting on-ground footfall to the feed",
     desc: "From interactive games, QR scanners, and stickers to launch-day hype — bridging physical consumer touchpoints directly into social shares.",
     className: "content-card-wide",
-    mediaUrl: "/images/projects/uploaded/content-lab_content-02.jpg",
+    mediaUrl: "/images/projects/content-lab/offline-activation.jpg",
   },
   {
     id: "content-03",
@@ -402,7 +388,7 @@ export const contentLabCards: ContentLabCard[] = [
     title: "Making complex products instantly clear",
     desc: "Turning technical specs and retail commodities into engaging, digestible content that answers customer questions before they ask.",
     className: "content-card-square",
-    mediaUrl: "/images/projects/uploaded/content-lab_content-03.png",
+    mediaUrl: "/images/projects/content-lab/product-education.jpg",
   },
 ];
 
